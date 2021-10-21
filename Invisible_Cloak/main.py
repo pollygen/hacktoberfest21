@@ -7,8 +7,10 @@ fourcc = cv2.VideoWriter_fourcc(*'XVID')
 out = cv2.VideoWriter('sudip.avi', fourcc, 30.0, (640, 480))
 time.sleep(2)
 background=0
+
 for i in range(30):
     ret, background = cap.read();
+    
 while(cap.isOpened()):
     ret, img = cap.read()
     if not ret:
@@ -37,6 +39,7 @@ while(cap.isOpened()):
     k=cv2.waitKey(10)
     if k==27:
         break
+        
 cap.release()
 cv2.destroyAllWindows()
     
