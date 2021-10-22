@@ -24,10 +24,12 @@ You are required to:
 
 ### How to Contribute to this Repo:
 Add your projects to this repository
-```sh
-fork this repo
-add code to the forked repo
-make pull request
-```
+
+* fork this repo
+* add code to the forked repo
+* make pull request
+
 
 For More related FAQs visit [here](https://hacktoberfest.digitalocean.com/faq)
+
+Repo owner _[Pollygen](https://github.com/pollygen)_
